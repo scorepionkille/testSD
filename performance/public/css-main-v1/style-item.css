@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+/* เมนูหลัก */
+.menumaster{
+    width:100%;
+    display: inline-flex;
+    list-style: none;
+}
+.menumaster li{
+    margin-left:0%;
+
+}
+.menumaster li a{
+    text-decoration: none;
+    color:black;
+}
+.menumaster li a:hover{
+    color:blue;
+}
+.imglogo{
+    width:70%;
+    height:auto;
+    margin-left:10%;
+}
+
+/* เมนูย่อย */
+.menuitem-product{
+    list-style:none;
+    padding-left:5%;
+}
+
+
+/* เนื้อหาItem */
+.sizeimg{
+    width:50%;
+    height:auto;
+    margin-top:2%;
+    margin-bottom: 2%;
+    margin-left:25%;
+    border:5px solid #b5b0b0;
+    background-color:white;
+}
+.story-item{
+    width:100%;
+    height:auto;
+}
+.story-item img{
+    width:100%;
+    height:auto;
+}
+.textproduct{
+    width:13%;
+    display: inline-flex;
+    border-bottom:1px solid #b5b0b0;
+}
+.buttom-left-right{
+    border: 3px solid #646464;
+    border-radius:5px;
+}
+.nameitem{
+    margin-top: 5%; 
+    margin-bottom:5%; 
+    margin-left:10%; 
+    border-bottom:1px solid #b5b0b0; 
+    width:57%;
+}
+.nameitem h4{
+    font-size: 20px;
+}
+.textduct2{
+    margin-left:10%;
+    margin-right:10%;
+}
+.textp{
+    margin-left:1%;
+}
+.textp p{
+    font-size: 13px;
+    text-indent: 30px;
+}
+.textp h4{
+    font-size: 20px;
+}
+.texth5{
+    font-size: 20px;
+}
+@media only screen and (max-width: 992px){
+    .textproduct h4{
+        font-size: 18px;
+    }
+    .nameitem h4{
+        font-size: 14px;
+    }
+    .textduct2 h4{
+        font-size:20px;
+    }
+    .menumaster li{
+        padding-top: 2.5%;
+    }
+    .menumaster li a h5{
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 768px){
+    
+    .textproduct h4{
+        font-size: 13px;
+    }
+    .nameitem h4{
+        font-size: 10px;
+    }
+    .textduct2 h4{
+        font-size:14px;
+    }
+    .textp p{
+        font-size: 12px;
+    }
+    .textp h4{
+        font-size: 14px;
+    }
+    .texth5 h5{
+        font-size: 14px;
+    }
+    .menumaster li{
+        margin-top: 2.5%;
+    }
+    .menumaster li a h5{
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 576px){
+    .textproduct h4{
+        font-size: 11px;
+    }
+    .nameitem{
+        width:61%;
+    }
+    .menumaster li a h5{
+        font-size: 11px;
+    }
+    .textduct2 h4{
+        font-size: 12px;
+    }
+    .textp h4{
+        font-size: 12px;
+    }
+    .textp p{
+        font-size: 10px;
+    }
+    .texth5 h5{
+        font-size: 12px;
+    }
+}
