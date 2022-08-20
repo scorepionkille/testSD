@@ -13,3 +13,5 @@ def checkString(message):
 message = input(str("กรอกข้อความ :"))
 en = checkString(message)
 print()
+
+# ยังไม่เสร็จครับ
